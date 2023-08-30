@@ -1,0 +1,2422 @@
+[
+  {
+    "academic_year": [
+      {
+        "id": "df3bb5ae-288e-4e6b-bff9-a1ac2da126ea",
+        "year": 78192,
+        "start_date": "2023-08-29T10:03:35.376Z",
+        "end_date": "2023-08-30T05:53:30.776Z",
+        "created_at": "2023-08-29T09:48:18.327Z",
+        "updated_at": "2023-08-30T03:08:13.295Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8c79a801-90d3-4f7d-9913-416ec48fdaf0",
+        "year": 32854,
+        "start_date": "2023-08-29T18:32:23.526Z",
+        "end_date": "2023-08-29T10:22:50.762Z",
+        "created_at": "2023-08-29T22:24:10.776Z",
+        "updated_at": "2023-08-29T23:06:16.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2b61a4d8-da8f-4be4-96a9-17971cd4649d",
+        "year": 62533,
+        "start_date": "2023-08-30T08:25:30.503Z",
+        "end_date": "2023-08-29T23:07:00.288Z",
+        "created_at": "2023-08-30T02:26:48.954Z",
+        "updated_at": "2023-08-30T05:48:15.692Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e0dcce7b-0db3-48ff-964e-3b8e11e239b6",
+        "year": 12789,
+        "start_date": "2023-08-30T08:41:42.570Z",
+        "end_date": "2023-08-29T12:18:16.369Z",
+        "created_at": "2023-08-30T02:11:00.363Z",
+        "updated_at": "2023-08-29T13:40:24.675Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7149a18c-7a79-4beb-aa2a-4bb68c24ecb2",
+        "year": 8583,
+        "start_date": "2023-08-30T01:40:11.962Z",
+        "end_date": "2023-08-30T05:38:21.286Z",
+        "created_at": "2023-08-30T00:19:31.983Z",
+        "updated_at": "2023-08-29T23:06:15.088Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "526f5ecf-5b97-46f0-8071-225b9989ba8a",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-29T11:21:56.103Z",
+        "updated_at": "2023-08-29T10:10:28.735Z",
+        "academic_year_id": "2b61a4d8-da8f-4be4-96a9-17971cd4649d",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "9d105dfc-17a4-45d0-a6a6-435d4d698888",
+        "name": "English",
+        "section": "B",
+        "created_at": "2023-08-29T13:09:43.225Z",
+        "updated_at": "2023-08-30T00:19:09.430Z",
+        "academic_year_id": "8c79a801-90d3-4f7d-9913-416ec48fdaf0",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "81155c52-4816-4759-8733-bd8b553fb3ad",
+        "name": "Science",
+        "section": "C",
+        "created_at": "2023-08-30T01:44:43.022Z",
+        "updated_at": "2023-08-30T04:59:45.811Z",
+        "academic_year_id": "df3bb5ae-288e-4e6b-bff9-a1ac2da126ea",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b01005cb-b9f9-4a2c-b852-ed661e1183c1",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-30T07:01:32.147Z",
+        "updated_at": "2023-08-30T03:58:36.685Z",
+        "academic_year_id": "7149a18c-7a79-4beb-aa2a-4bb68c24ecb2",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "c802c078-c36f-428b-b893-07f1b5ca126f",
+        "name": "Art",
+        "section": "E",
+        "created_at": "2023-08-29T16:08:11.527Z",
+        "updated_at": "2023-08-30T02:59:34.382Z",
+        "academic_year_id": "2b61a4d8-da8f-4be4-96a9-17971cd4649d",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "03576980-8e54-4175-9730-9e3b76274725",
+        "date": "2023-08-29T17:43:37.796Z",
+        "status": "Present",
+        "created_at": "2023-08-30T01:00:59.420Z",
+        "updated_at": "2023-08-29T09:20:03.534Z",
+        "class_id": "c802c078-c36f-428b-b893-07f1b5ca126f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "4febfdba-5754-4bf4-bd38-f346d393b2d6",
+        "date": "2023-08-30T05:54:39.562Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T22:51:45.326Z",
+        "updated_at": "2023-08-30T02:21:47.980Z",
+        "class_id": "81155c52-4816-4759-8733-bd8b553fb3ad",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "2c364377-3f03-42d0-a47f-01c14d86fe69",
+        "date": "2023-08-30T01:58:01.798Z",
+        "status": "Late",
+        "created_at": "2023-08-30T06:02:39.006Z",
+        "updated_at": "2023-08-30T08:06:17.691Z",
+        "class_id": "526f5ecf-5b97-46f0-8071-225b9989ba8a",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a794d88e-be20-4bb5-8829-e80b67375cc1",
+        "date": "2023-08-30T07:09:23.051Z",
+        "status": "Excused",
+        "created_at": "2023-08-30T04:28:22.950Z",
+        "updated_at": "2023-08-29T16:13:23.104Z",
+        "class_id": "9d105dfc-17a4-45d0-a6a6-435d4d698888",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "7b17114b-c417-4928-8fcb-7cd90c1e1160",
+        "date": "2023-08-29T20:05:01.432Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T18:40:31.984Z",
+        "updated_at": "2023-08-29T18:56:24.735Z",
+        "class_id": "9d105dfc-17a4-45d0-a6a6-435d4d698888",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "f40795c4-cc42-4831-b3a2-592993df6d35",
+        "title": "Project Proposal",
+        "description": "Write a proposal for a sustainable energy project",
+        "due_date": "2023-08-29T22:51:18.709Z",
+        "created_at": "2023-08-29T15:26:18.736Z",
+        "updated_at": "2023-08-29T16:27:04.468Z",
+        "class_id": "9d105dfc-17a4-45d0-a6a6-435d4d698888",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "18fd3f13-d8eb-4698-a76f-1958feae9921",
+        "title": "Essay Writing",
+        "description": "Compose an essay on the importance of literature",
+        "due_date": "2023-08-30T07:02:30.231Z",
+        "created_at": "2023-08-29T18:35:32.574Z",
+        "updated_at": "2023-08-29T14:26:38.711Z",
+        "class_id": "c802c078-c36f-428b-b893-07f1b5ca126f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ae60bedf-4a91-4a65-9413-15dad75f2332",
+        "title": "Lab Experiment",
+        "description": "Conduct a chemistry experiment to analyze reaction rates",
+        "due_date": "2023-08-29T11:12:00.680Z",
+        "created_at": "2023-08-29T19:14:50.769Z",
+        "updated_at": "2023-08-29T09:41:06.054Z",
+        "class_id": "c802c078-c36f-428b-b893-07f1b5ca126f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "63cb9857-5e72-472a-8c0b-2aab24e792f2",
+        "title": "Research Paper",
+        "description": "Research and write a paper on the impact of technology on society",
+        "due_date": "2023-08-30T08:57:14.024Z",
+        "created_at": "2023-08-29T19:30:17.469Z",
+        "updated_at": "2023-08-30T08:08:36.723Z",
+        "class_id": "b01005cb-b9f9-4a2c-b852-ed661e1183c1",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f1c765ed-8ea2-4af9-8add-a7dd0b4f1b82",
+        "title": "Art Portfolio",
+        "description": "Create a portfolio showcasing various art techniques",
+        "due_date": "2023-08-30T01:17:02.414Z",
+        "created_at": "2023-08-29T23:46:27.493Z",
+        "updated_at": "2023-08-30T00:49:27.102Z",
+        "class_id": "b01005cb-b9f9-4a2c-b852-ed661e1183c1",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a08c9d3b-6c5e-41a0-ae6a-726d2ff7f010",
+        "email": "Misty.Daugherty@hotmail.com",
+        "firstName": "Jordon",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57317562",
+        "tenantId": null
+      },
+      {
+        "reference": "32779d5d-6223-4769-af1e-f597e2f2d9d9",
+        "email": "Uriah_Blanda@hotmail.com",
+        "firstName": "Richie",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/624.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96032bc7-266d-496d-be8a-c0a96e0defad",
+        "email": "Greyson_Lakin80@hotmail.com",
+        "firstName": "Leon",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77043463",
+        "tenantId": null
+      },
+      {
+        "reference": "d5ee5511-296d-44da-b0c7-a39015449f56",
+        "email": "Laurel51@hotmail.com",
+        "firstName": "Elmo",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dcdf2064-9268-470c-a32e-7dac1e741160",
+        "email": "Darrel.Bruen@hotmail.com",
+        "firstName": "Karley",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1015.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "0fa0dcf3-2233-4310-b593-be238c503137",
+        "year": 44728,
+        "start_date": "2023-08-30T05:35:05.975Z",
+        "end_date": "2023-08-30T05:14:14.373Z",
+        "created_at": "2023-08-29T15:37:18.366Z",
+        "updated_at": "2023-08-30T01:39:00.972Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7bab2376-9e71-4ce2-95c0-f3bb0647a45d",
+        "year": 708,
+        "start_date": "2023-08-29T23:11:44.243Z",
+        "end_date": "2023-08-29T23:27:04.617Z",
+        "created_at": "2023-08-29T15:29:45.330Z",
+        "updated_at": "2023-08-30T06:50:14.206Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "57a749e5-8df5-4c11-bd37-3a18e0d4869b",
+        "year": 93775,
+        "start_date": "2023-08-29T20:59:30.094Z",
+        "end_date": "2023-08-29T18:19:23.409Z",
+        "created_at": "2023-08-29T09:44:15.386Z",
+        "updated_at": "2023-08-29T13:56:30.107Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "af02b0c3-c02c-46c7-abbf-2da7291be6e3",
+        "year": 31230,
+        "start_date": "2023-08-30T03:54:45.879Z",
+        "end_date": "2023-08-30T03:21:15.388Z",
+        "created_at": "2023-08-30T03:31:01.504Z",
+        "updated_at": "2023-08-30T02:47:45.504Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa57fc39-d890-4329-9676-ae92420c1171",
+        "year": 49640,
+        "start_date": "2023-08-29T19:51:04.953Z",
+        "end_date": "2023-08-29T11:29:40.659Z",
+        "created_at": "2023-08-29T12:59:23.521Z",
+        "updated_at": "2023-08-29T17:23:52.436Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "7fddd2b5-c8c1-4867-a594-ed812c3751e3",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-29T18:11:42.080Z",
+        "updated_at": "2023-08-29T17:33:12.070Z",
+        "academic_year_id": "af02b0c3-c02c-46c7-abbf-2da7291be6e3",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1b18c09d-4759-432f-bac6-83345a1dac47",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T19:06:44.838Z",
+        "updated_at": "2023-08-29T10:40:59.552Z",
+        "academic_year_id": "aa57fc39-d890-4329-9676-ae92420c1171",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "85786535-4134-47c6-a009-82c1359ad3b6",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-29T19:05:33.300Z",
+        "updated_at": "2023-08-30T05:11:49.646Z",
+        "academic_year_id": "0fa0dcf3-2233-4310-b593-be238c503137",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ad0b6a3d-d807-4da9-a0a5-f7c7781aa59c",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-29T13:33:23.501Z",
+        "updated_at": "2023-08-29T11:36:24.179Z",
+        "academic_year_id": "57a749e5-8df5-4c11-bd37-3a18e0d4869b",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "ded8d035-56db-43c6-add4-74619bc9d087",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-30T06:52:07.566Z",
+        "updated_at": "2023-08-29T10:44:44.714Z",
+        "academic_year_id": "57a749e5-8df5-4c11-bd37-3a18e0d4869b",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "eb49e3d8-6141-4b3b-b8f5-119d4699c3dc",
+        "date": "2023-08-30T03:46:31.466Z",
+        "status": "Present",
+        "created_at": "2023-08-29T23:09:58.210Z",
+        "updated_at": "2023-08-30T04:01:27.963Z",
+        "class_id": "85786535-4134-47c6-a009-82c1359ad3b6",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ad73cc4c-bad9-4b08-a0ce-cd9851496297",
+        "date": "2023-08-29T19:31:23.824Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T11:09:26.324Z",
+        "updated_at": "2023-08-30T00:54:42.714Z",
+        "class_id": "ad0b6a3d-d807-4da9-a0a5-f7c7781aa59c",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "52e23e2f-2224-451b-9ce9-1e4a8bae3754",
+        "date": "2023-08-30T02:37:59.244Z",
+        "status": "Late",
+        "created_at": "2023-08-29T15:38:19.436Z",
+        "updated_at": "2023-08-30T02:05:51.255Z",
+        "class_id": "85786535-4134-47c6-a009-82c1359ad3b6",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "19981152-079e-4565-b2f5-aa1f298babf7",
+        "date": "2023-08-29T13:39:45.704Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T20:59:21.550Z",
+        "updated_at": "2023-08-29T13:57:58.397Z",
+        "class_id": "ad0b6a3d-d807-4da9-a0a5-f7c7781aa59c",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e6069d-702d-4bb2-aece-e4e9d3ed423b",
+        "date": "2023-08-30T01:12:57.837Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T13:46:53.224Z",
+        "updated_at": "2023-08-29T15:53:18.098Z",
+        "class_id": "1b18c09d-4759-432f-bac6-83345a1dac47",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "6d958a7e-438d-4530-85b3-57e512079ea5",
+        "title": "Research Paper",
+        "description": "Write a research paper on the impact of climate change",
+        "due_date": "2023-08-29T11:10:26.970Z",
+        "created_at": "2023-08-30T04:02:18.739Z",
+        "updated_at": "2023-08-30T01:32:32.273Z",
+        "class_id": "ad0b6a3d-d807-4da9-a0a5-f7c7781aa59c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "5c0f2c43-ec19-4210-8f13-e9b9744f36bf",
+        "title": "Group Project",
+        "description": "Collaborate with your team to develop a software application",
+        "due_date": "2023-08-30T08:31:58.287Z",
+        "created_at": "2023-08-29T19:25:34.225Z",
+        "updated_at": "2023-08-30T01:52:45.031Z",
+        "class_id": "7fddd2b5-c8c1-4867-a594-ed812c3751e3",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e4c332fc-f065-417a-9b73-2f84dca035a0",
+        "title": "Essay",
+        "description": "Compose an essay discussing the influence of social media",
+        "due_date": "2023-08-29T18:50:54.668Z",
+        "created_at": "2023-08-30T01:12:18.449Z",
+        "updated_at": "2023-08-29T12:26:49.136Z",
+        "class_id": "7fddd2b5-c8c1-4867-a594-ed812c3751e3",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b18b9730-7743-43c2-bd0d-25145466b242",
+        "title": "Presentation",
+        "description": "Deliver a presentation on a famous historical event",
+        "due_date": "2023-08-29T10:29:48.739Z",
+        "created_at": "2023-08-30T03:38:33.744Z",
+        "updated_at": "2023-08-30T03:54:51.424Z",
+        "class_id": "ad0b6a3d-d807-4da9-a0a5-f7c7781aa59c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "37661596-fd1f-4066-bf31-157d111f3e59",
+        "title": "Case Study",
+        "description": "Analyze a real-life business case and propose solutions",
+        "due_date": "2023-08-29T17:52:57.511Z",
+        "created_at": "2023-08-29T11:16:51.056Z",
+        "updated_at": "2023-08-29T23:49:42.775Z",
+        "class_id": "1b18c09d-4759-432f-bac6-83345a1dac47",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1e5a5765-bf9c-4dbf-8414-842b8aae7cbe",
+        "email": "Reginald_Maggio55@hotmail.com",
+        "firstName": "Gloria",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fec02c6-8302-4e0e-a90b-9ce2e7a53d07",
+        "email": "Alexis39@gmail.com",
+        "firstName": "Boris",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/830.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16ebf6b9-63dc-4613-86e7-9dfc4be92fdf",
+        "email": "Abe.Hauck53@yahoo.com",
+        "firstName": "Desmond",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52036084",
+        "tenantId": null
+      },
+      {
+        "reference": "1b91d33e-830f-43e5-b16a-4a9cf1dbbd6f",
+        "email": "Elmore_Zboncak-Schamberger24@yahoo.com",
+        "firstName": "Marcelino",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e5878c7-66ad-4f35-bcda-9f33dc853be0",
+        "email": "Rachelle_McKenzie20@gmail.com",
+        "firstName": "Ciara",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/358.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "47167d7a-b246-4bb7-a212-a2958a66eb29",
+        "year": 56550,
+        "start_date": "2023-08-29T22:52:30.007Z",
+        "end_date": "2023-08-29T16:59:42.007Z",
+        "created_at": "2023-08-29T23:32:32.232Z",
+        "updated_at": "2023-08-29T23:24:04.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "04b9f1ad-f08b-4691-b818-4b1034716bde",
+        "year": 81203,
+        "start_date": "2023-08-29T15:05:49.316Z",
+        "end_date": "2023-08-30T03:25:54.358Z",
+        "created_at": "2023-08-30T03:11:41.703Z",
+        "updated_at": "2023-08-29T09:52:35.271Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "08255134-11c2-4b0d-966b-fc8642fc604b",
+        "year": 76171,
+        "start_date": "2023-08-29T15:23:45.815Z",
+        "end_date": "2023-08-30T04:54:47.382Z",
+        "created_at": "2023-08-29T12:39:31.348Z",
+        "updated_at": "2023-08-29T15:31:57.379Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e47595b-fb0d-46ae-af5d-565d4658a253",
+        "year": 74120,
+        "start_date": "2023-08-30T00:42:51.832Z",
+        "end_date": "2023-08-29T22:38:38.582Z",
+        "created_at": "2023-08-30T05:48:44.426Z",
+        "updated_at": "2023-08-30T06:11:24.389Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4bda4b8c-98cf-4287-afca-598e7e5fc699",
+        "year": 90915,
+        "start_date": "2023-08-29T15:23:48.470Z",
+        "end_date": "2023-08-30T07:06:10.046Z",
+        "created_at": "2023-08-29T23:23:07.112Z",
+        "updated_at": "2023-08-29T20:02:20.133Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "024a5494-15c5-4759-ad0a-9a485d89b8d7",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-30T02:47:57.514Z",
+        "updated_at": "2023-08-30T05:59:33.522Z",
+        "academic_year_id": "7e47595b-fb0d-46ae-af5d-565d4658a253",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d07f1f6d-95f2-4675-8ee4-cf8728d2fab2",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T21:37:59.354Z",
+        "updated_at": "2023-08-29T10:44:40.620Z",
+        "academic_year_id": "4bda4b8c-98cf-4287-afca-598e7e5fc699",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "5f803da1-dee5-4123-8ca6-ed41b20fa794",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-29T11:09:09.298Z",
+        "updated_at": "2023-08-29T16:57:03.837Z",
+        "academic_year_id": "08255134-11c2-4b0d-966b-fc8642fc604b",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "af328e42-524e-47d3-ba1d-f8b3116c7348",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-29T23:12:57.818Z",
+        "updated_at": "2023-08-30T03:31:59.579Z",
+        "academic_year_id": "08255134-11c2-4b0d-966b-fc8642fc604b",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f023d3ee-82ef-4511-91d3-55fb1c7760dd",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-29T22:58:42.036Z",
+        "updated_at": "2023-08-29T19:41:02.177Z",
+        "academic_year_id": "7e47595b-fb0d-46ae-af5d-565d4658a253",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "d92d8925-498b-4982-a004-a9cbb3af64f6",
+        "date": "2023-08-30T08:01:16.693Z",
+        "status": "Present",
+        "created_at": "2023-08-29T14:40:13.824Z",
+        "updated_at": "2023-08-30T04:08:25.442Z",
+        "class_id": "d07f1f6d-95f2-4675-8ee4-cf8728d2fab2",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "4e61dec7-ca69-433a-a443-6b5cf3e34236",
+        "date": "2023-08-29T22:48:39.551Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T19:21:10.715Z",
+        "updated_at": "2023-08-30T01:49:36.181Z",
+        "class_id": "af328e42-524e-47d3-ba1d-f8b3116c7348",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8323b2d7-3bac-457e-8585-35f5e5a805aa",
+        "date": "2023-08-29T13:01:53.119Z",
+        "status": "Late",
+        "created_at": "2023-08-29T19:39:05.105Z",
+        "updated_at": "2023-08-30T01:16:04.879Z",
+        "class_id": "af328e42-524e-47d3-ba1d-f8b3116c7348",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "93294464-d63a-4303-a770-de0bacbc7f78",
+        "date": "2023-08-29T15:23:55.212Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T20:43:15.365Z",
+        "updated_at": "2023-08-29T11:09:54.170Z",
+        "class_id": "024a5494-15c5-4759-ad0a-9a485d89b8d7",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c5b89e09-8fda-4556-8032-e7be82a1a7d1",
+        "date": "2023-08-29T14:51:22.215Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T21:06:23.665Z",
+        "updated_at": "2023-08-29T15:00:52.973Z",
+        "class_id": "d07f1f6d-95f2-4675-8ee4-cf8728d2fab2",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "85c69b2e-3c4d-4673-84d2-e8985792854e",
+        "title": "Research Paper",
+        "description": "Write a research paper on climate change",
+        "due_date": "2023-08-29T14:00:57.441Z",
+        "created_at": "2023-08-30T01:24:34.880Z",
+        "updated_at": "2023-08-29T10:08:10.037Z",
+        "class_id": "024a5494-15c5-4759-ad0a-9a485d89b8d7",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "343a20aa-7e72-46f1-8181-a3fd8778be55",
+        "title": "Group Project",
+        "description": "Collaborate on a group project about renewable energy",
+        "due_date": "2023-08-29T17:30:45.813Z",
+        "created_at": "2023-08-29T10:27:07.000Z",
+        "updated_at": "2023-08-29T19:36:04.123Z",
+        "class_id": "024a5494-15c5-4759-ad0a-9a485d89b8d7",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "31d0cc39-7588-4d56-b0db-fd5544f15a4e",
+        "title": "Presentation",
+        "description": "Prepare a presentation on the history of the Industrial Revolution",
+        "due_date": "2023-08-30T08:58:01.094Z",
+        "created_at": "2023-08-29T20:05:10.802Z",
+        "updated_at": "2023-08-30T07:08:15.447Z",
+        "class_id": "5f803da1-dee5-4123-8ca6-ed41b20fa794",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0aa54039-68c9-4a1e-ae19-f3c1c52303fe",
+        "title": "Essay",
+        "description": "Write an essay analyzing a literary work",
+        "due_date": "2023-08-29T11:19:30.665Z",
+        "created_at": "2023-08-29T11:07:29.654Z",
+        "updated_at": "2023-08-29T18:57:01.149Z",
+        "class_id": "af328e42-524e-47d3-ba1d-f8b3116c7348",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "8b66777c-10cf-4d4c-acb5-682885acfadc",
+        "title": "Problem Set",
+        "description": "Complete a problem set on algebraic equations",
+        "due_date": "2023-08-29T15:47:00.307Z",
+        "created_at": "2023-08-29T09:32:34.514Z",
+        "updated_at": "2023-08-29T23:05:49.396Z",
+        "class_id": "f023d3ee-82ef-4511-91d3-55fb1c7760dd",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a1326e15-0110-4bd1-bfaf-36c4adb2e8a7",
+        "email": "Christina.Beer@yahoo.com",
+        "firstName": "Kaia",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65385239",
+        "tenantId": null
+      },
+      {
+        "reference": "510ea442-81af-45db-b4b5-6b56646f6907",
+        "email": "Alycia.Jacobi@yahoo.com",
+        "firstName": "Karley",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30097240",
+        "tenantId": null
+      },
+      {
+        "reference": "3dd9f5ec-973d-42f8-bf59-6b2802c2292e",
+        "email": "Kamryn.Gutkowski25@yahoo.com",
+        "firstName": "Odie",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67693a82-a0d5-4717-9669-a47c7afb984a",
+        "email": "Bernice_Watsica78@yahoo.com",
+        "firstName": "Rubie",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2927789",
+        "tenantId": null
+      },
+      {
+        "reference": "07b32135-cbbe-4476-8751-f627876235cd",
+        "email": "Rebecca.Turcotte@hotmail.com",
+        "firstName": "Jamal",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56712468",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "6c068e78-7a97-4f53-832b-a01d74a78b51",
+        "year": 68185,
+        "start_date": "2023-08-29T13:10:46.946Z",
+        "end_date": "2023-08-29T18:35:21.443Z",
+        "created_at": "2023-08-29T10:19:25.763Z",
+        "updated_at": "2023-08-29T21:04:23.578Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a91d1d75-73ca-4a67-895c-a95017c835de",
+        "year": 96011,
+        "start_date": "2023-08-29T13:50:14.943Z",
+        "end_date": "2023-08-29T16:32:31.077Z",
+        "created_at": "2023-08-30T04:28:36.251Z",
+        "updated_at": "2023-08-30T09:07:48.482Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01b94134-8fe4-49d9-b6c6-9b1780eb0dcc",
+        "year": 53341,
+        "start_date": "2023-08-30T06:43:35.291Z",
+        "end_date": "2023-08-29T13:37:11.070Z",
+        "created_at": "2023-08-30T02:29:13.815Z",
+        "updated_at": "2023-08-30T08:04:44.255Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d5a6eadb-2f18-4efe-9002-1aec807688eb",
+        "year": 52688,
+        "start_date": "2023-08-29T17:38:27.069Z",
+        "end_date": "2023-08-30T02:13:23.707Z",
+        "created_at": "2023-08-30T08:42:21.156Z",
+        "updated_at": "2023-08-29T23:08:51.513Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e2e32649-4f9f-4f67-a32c-341d98742008",
+        "year": 70469,
+        "start_date": "2023-08-30T00:08:51.594Z",
+        "end_date": "2023-08-29T12:18:36.043Z",
+        "created_at": "2023-08-29T15:00:30.357Z",
+        "updated_at": "2023-08-29T23:39:53.791Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "831018ae-620d-46f6-8203-b2e62d16df7e",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-30T08:19:43.401Z",
+        "updated_at": "2023-08-30T01:40:32.715Z",
+        "academic_year_id": "6c068e78-7a97-4f53-832b-a01d74a78b51",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "16e8c0a3-0d11-497b-89c0-5217f46ec40f",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T10:37:40.637Z",
+        "updated_at": "2023-08-29T23:12:47.855Z",
+        "academic_year_id": "6c068e78-7a97-4f53-832b-a01d74a78b51",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "658ab216-8362-486a-bdd1-52647b858e5f",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-29T17:44:15.860Z",
+        "updated_at": "2023-08-29T18:28:41.203Z",
+        "academic_year_id": "01b94134-8fe4-49d9-b6c6-9b1780eb0dcc",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "51ca8753-caa2-4df3-853a-5ac37d596acf",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-29T10:14:37.381Z",
+        "updated_at": "2023-08-29T16:14:38.184Z",
+        "academic_year_id": "e2e32649-4f9f-4f67-a32c-341d98742008",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7f0ce406-95a7-428d-87b5-f37018ab4880",
+        "name": "Geography",
+        "section": "E",
+        "created_at": "2023-08-30T02:59:54.450Z",
+        "updated_at": "2023-08-29T23:20:16.438Z",
+        "academic_year_id": "e2e32649-4f9f-4f67-a32c-341d98742008",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "4f4a70c3-c8f2-45bc-b498-6b697dee4377",
+        "date": "2023-08-29T13:56:34.120Z",
+        "status": "Present",
+        "created_at": "2023-08-29T18:46:15.900Z",
+        "updated_at": "2023-08-30T01:35:41.037Z",
+        "class_id": "16e8c0a3-0d11-497b-89c0-5217f46ec40f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "2a0d31bf-8dbe-4812-b504-1d7e0aabca69",
+        "date": "2023-08-29T15:17:43.331Z",
+        "status": "Absent",
+        "created_at": "2023-08-30T03:24:34.532Z",
+        "updated_at": "2023-08-29T11:42:02.421Z",
+        "class_id": "7f0ce406-95a7-428d-87b5-f37018ab4880",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "e8e184b9-66da-4009-aa0f-8a336a02dee6",
+        "date": "2023-08-29T20:36:45.506Z",
+        "status": "Late",
+        "created_at": "2023-08-29T22:54:06.282Z",
+        "updated_at": "2023-08-30T02:03:47.708Z",
+        "class_id": "16e8c0a3-0d11-497b-89c0-5217f46ec40f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "0276131f-f947-40a2-9322-229ae12218d8",
+        "date": "2023-08-29T22:46:13.843Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T15:35:23.611Z",
+        "updated_at": "2023-08-29T14:36:02.754Z",
+        "class_id": "7f0ce406-95a7-428d-87b5-f37018ab4880",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "d2b70526-9ced-4ca4-be82-8cb6949b9b32",
+        "date": "2023-08-29T10:56:12.469Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T11:26:28.625Z",
+        "updated_at": "2023-08-29T23:56:56.506Z",
+        "class_id": "831018ae-620d-46f6-8203-b2e62d16df7e",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "80f13f69-5ba5-4ac4-b1ab-151b8375b429",
+        "title": "Assignment 1",
+        "description": "Complete the assigned exercises",
+        "due_date": "2023-08-29T21:53:39.054Z",
+        "created_at": "2023-08-29T19:09:50.960Z",
+        "updated_at": "2023-08-30T01:44:20.014Z",
+        "class_id": "658ab216-8362-486a-bdd1-52647b858e5f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "99f7cc0b-a15a-4037-831f-002db5afc724",
+        "title": "Project 2",
+        "description": "Develop a software application",
+        "due_date": "2023-08-29T10:15:20.665Z",
+        "created_at": "2023-08-30T07:21:57.758Z",
+        "updated_at": "2023-08-29T18:56:39.324Z",
+        "class_id": "16e8c0a3-0d11-497b-89c0-5217f46ec40f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b9c98a3d-72c8-46e8-bc05-eb9740fb5982",
+        "title": "Essay 3",
+        "description": "Write an essay on a given topic",
+        "due_date": "2023-08-29T09:09:55.256Z",
+        "created_at": "2023-08-30T07:28:33.529Z",
+        "updated_at": "2023-08-29T17:32:09.253Z",
+        "class_id": "51ca8753-caa2-4df3-853a-5ac37d596acf",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "418b3e19-bfd0-487a-9a49-cbab7a716ef7",
+        "title": "Presentation 4",
+        "description": "Prepare a presentation on a specific subject",
+        "due_date": "2023-08-30T08:56:21.424Z",
+        "created_at": "2023-08-29T18:06:19.723Z",
+        "updated_at": "2023-08-29T18:05:10.968Z",
+        "class_id": "16e8c0a3-0d11-497b-89c0-5217f46ec40f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "57f251e9-5106-4994-9c55-4cb9419af6c9",
+        "title": "Quiz 5",
+        "description": "Take a quiz on the course material",
+        "due_date": "2023-08-30T08:44:15.061Z",
+        "created_at": "2023-08-30T00:35:10.203Z",
+        "updated_at": "2023-08-30T07:54:20.423Z",
+        "class_id": "658ab216-8362-486a-bdd1-52647b858e5f",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cd3233fd-8af3-4998-a655-2ebfe4305415",
+        "email": "Adolphus.Heathcote@gmail.com",
+        "firstName": "Marjolaine",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/921.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "779fe20c-6b6d-48c3-abc2-f49cd8aba571",
+        "email": "Nyasia.Cummerata37@yahoo.com",
+        "firstName": "Keaton",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "390d0c8a-230b-45ec-970a-80af0e398b26",
+        "email": "Reid.Dooley@gmail.com",
+        "firstName": "Angelica",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99812040-05a9-45f9-9cf6-191f1091ac42",
+        "email": "Tina44@gmail.com",
+        "firstName": "Trudie",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/974.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4db09383-2356-4da9-b461-3069e53eddd2",
+        "email": "Johnathon.Bartoletti@yahoo.com",
+        "firstName": "Michaela",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/313.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "c8d62d6a-fbc5-475b-a5ea-ee0525c78e83",
+        "year": 43987,
+        "start_date": "2023-08-29T15:26:30.933Z",
+        "end_date": "2023-08-29T22:14:37.188Z",
+        "created_at": "2023-08-29T15:20:25.844Z",
+        "updated_at": "2023-08-30T08:54:12.548Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "121024c0-8cbb-435b-8378-fc2ce15e26f0",
+        "year": 64363,
+        "start_date": "2023-08-29T14:11:40.446Z",
+        "end_date": "2023-08-29T17:19:00.717Z",
+        "created_at": "2023-08-30T00:54:18.400Z",
+        "updated_at": "2023-08-29T18:24:49.579Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "787ffa44-54ee-4873-864e-1e44dd0891a3",
+        "year": 93141,
+        "start_date": "2023-08-30T02:30:51.057Z",
+        "end_date": "2023-08-29T11:39:29.507Z",
+        "created_at": "2023-08-29T22:09:10.164Z",
+        "updated_at": "2023-08-30T08:56:38.971Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "162ee486-2fd9-45a1-b314-9ae0043d849d",
+        "year": 42746,
+        "start_date": "2023-08-29T17:22:48.142Z",
+        "end_date": "2023-08-29T10:56:15.185Z",
+        "created_at": "2023-08-29T18:46:11.963Z",
+        "updated_at": "2023-08-29T12:56:47.359Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2627a942-b8be-458b-b66d-dfb04a5c2351",
+        "year": 26554,
+        "start_date": "2023-08-30T02:31:27.059Z",
+        "end_date": "2023-08-29T16:32:15.620Z",
+        "created_at": "2023-08-30T05:43:53.193Z",
+        "updated_at": "2023-08-29T18:02:49.651Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "cdb03f70-1d5e-4222-80a6-c2bfbccce780",
+        "name": "Math",
+        "section": "A",
+        "created_at": "2023-08-29T14:58:38.455Z",
+        "updated_at": "2023-08-30T08:48:37.011Z",
+        "academic_year_id": "c8d62d6a-fbc5-475b-a5ea-ee0525c78e83",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b346cd5a-c1c2-4bef-ba5a-a9a4131ad45f",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T19:28:46.742Z",
+        "updated_at": "2023-08-29T16:28:52.563Z",
+        "academic_year_id": "c8d62d6a-fbc5-475b-a5ea-ee0525c78e83",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-29T23:40:37.687Z",
+        "updated_at": "2023-08-30T07:55:50.974Z",
+        "academic_year_id": "162ee486-2fd9-45a1-b314-9ae0043d849d",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d13e50e2-cac2-4b06-bc58-c790645ae8e4",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-30T07:30:48.739Z",
+        "updated_at": "2023-08-30T01:43:31.298Z",
+        "academic_year_id": "c8d62d6a-fbc5-475b-a5ea-ee0525c78e83",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aa7534ca-8859-4c77-afe3-03dec87ead88",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-30T05:10:48.683Z",
+        "updated_at": "2023-08-30T03:16:44.482Z",
+        "academic_year_id": "162ee486-2fd9-45a1-b314-9ae0043d849d",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "7b576442-cd77-4df7-af7c-23b2df8fc316",
+        "date": "2023-08-29T14:02:31.814Z",
+        "status": "Present",
+        "created_at": "2023-08-30T01:38:17.560Z",
+        "updated_at": "2023-08-30T03:09:46.542Z",
+        "class_id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "e7a32415-0919-4e68-9a85-d942a89f899e",
+        "date": "2023-08-29T21:58:59.633Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T23:44:07.111Z",
+        "updated_at": "2023-08-29T11:09:00.421Z",
+        "class_id": "b346cd5a-c1c2-4bef-ba5a-a9a4131ad45f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "292aa5a2-e14f-4b54-a417-076bab557651",
+        "date": "2023-08-29T22:09:45.320Z",
+        "status": "Late",
+        "created_at": "2023-08-30T01:18:05.932Z",
+        "updated_at": "2023-08-29T14:00:18.681Z",
+        "class_id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "c41998bd-0811-48a7-af2d-796c92c6e2c0",
+        "date": "2023-08-29T20:06:59.882Z",
+        "status": "Excused",
+        "created_at": "2023-08-30T01:25:18.421Z",
+        "updated_at": "2023-08-30T08:44:58.166Z",
+        "class_id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "2f305935-b91e-4995-99c0-f0a193a78f1a",
+        "date": "2023-08-30T03:13:59.660Z",
+        "status": "Tardy",
+        "created_at": "2023-08-30T09:00:21.659Z",
+        "updated_at": "2023-08-30T03:51:41.926Z",
+        "class_id": "aa7534ca-8859-4c77-afe3-03dec87ead88",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "571b988f-9438-4166-bce5-1701939cbdc7",
+        "title": "Project Proposal",
+        "description": "Write a proposal for a new business venture",
+        "due_date": "2023-08-29T21:32:50.241Z",
+        "created_at": "2023-08-30T07:17:56.498Z",
+        "updated_at": "2023-08-29T12:18:12.143Z",
+        "class_id": "d13e50e2-cac2-4b06-bc58-c790645ae8e4",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "353f0ac4-7eef-4c4a-8654-5f9138ae438d",
+        "title": "Research Paper",
+        "description": "Conduct research on climate change",
+        "due_date": "2023-08-29T16:53:48.983Z",
+        "created_at": "2023-08-29T14:34:25.474Z",
+        "updated_at": "2023-08-29T13:05:52.763Z",
+        "class_id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1939218a-d3df-4d72-941e-8778c5ce83fd",
+        "title": "Presentation",
+        "description": "Prepare a presentation on the history of art",
+        "due_date": "2023-08-29T23:10:28.660Z",
+        "created_at": "2023-08-30T07:03:48.525Z",
+        "updated_at": "2023-08-29T23:17:37.969Z",
+        "class_id": "cdb03f70-1d5e-4222-80a6-c2bfbccce780",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "17b7bc3d-fb8d-43d4-90e6-29019b00c7fe",
+        "title": "Lab Experiment",
+        "description": "Perform a chemistry experiment",
+        "due_date": "2023-08-30T02:28:48.038Z",
+        "created_at": "2023-08-29T18:07:01.820Z",
+        "updated_at": "2023-08-29T13:04:50.805Z",
+        "class_id": "7d9c58f9-bed3-4f9b-a4ff-76bb90dd9e15",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aa55dad8-02de-459d-afc5-75a0527a3ed0",
+        "title": "Essay",
+        "description": "Write an essay on the importance of education",
+        "due_date": "2023-08-30T01:56:48.201Z",
+        "created_at": "2023-08-29T10:00:10.822Z",
+        "updated_at": "2023-08-30T02:16:25.211Z",
+        "class_id": "aa7534ca-8859-4c77-afe3-03dec87ead88",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac3d1d1c-de2a-4f6a-b0f0-2888e032b4b0",
+        "email": "Cheyanne.OConnell@hotmail.com",
+        "firstName": "Anastasia",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65158338",
+        "tenantId": null
+      },
+      {
+        "reference": "629c191a-c244-41c6-bb20-688565913bf6",
+        "email": "Margarette58@yahoo.com",
+        "firstName": "Grayson",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3bae9736-b726-4d56-91b8-983adc10d97d",
+        "email": "Lenora_Hayes90@gmail.com",
+        "firstName": "Leland",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1047.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36070220-a586-47d2-9f3e-7566a57b46eb",
+        "email": "Rhiannon85@yahoo.com",
+        "firstName": "Emie",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/609.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "835c0181-13ac-4f64-a3e9-2f5fc70655b8",
+        "email": "Beverly15@gmail.com",
+        "firstName": "Brayan",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "da8f39a2-4d6a-453f-b2aa-c130b496bc3c",
+        "year": 26303,
+        "start_date": "2023-08-29T11:14:15.441Z",
+        "end_date": "2023-08-29T19:38:27.837Z",
+        "created_at": "2023-08-29T18:38:23.830Z",
+        "updated_at": "2023-08-29T21:05:15.378Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4ac05c8-4faa-411e-acb8-0944a946be32",
+        "year": 1964,
+        "start_date": "2023-08-30T01:16:55.220Z",
+        "end_date": "2023-08-29T18:34:13.310Z",
+        "created_at": "2023-08-29T16:28:40.479Z",
+        "updated_at": "2023-08-29T18:41:37.738Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c5a1f66-fc19-49d7-951b-465628b221ce",
+        "year": 17108,
+        "start_date": "2023-08-29T14:17:14.797Z",
+        "end_date": "2023-08-29T15:26:06.170Z",
+        "created_at": "2023-08-30T02:07:33.296Z",
+        "updated_at": "2023-08-29T17:34:02.549Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8ceb3da3-f868-4f91-8975-7349e0a9216d",
+        "year": 82799,
+        "start_date": "2023-08-29T11:59:52.459Z",
+        "end_date": "2023-08-29T15:06:31.582Z",
+        "created_at": "2023-08-29T09:11:31.050Z",
+        "updated_at": "2023-08-29T18:32:27.796Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "475bd425-7cd8-43d6-8ae8-809a0d5b3834",
+        "year": 6571,
+        "start_date": "2023-08-29T16:07:25.023Z",
+        "end_date": "2023-08-29T23:45:07.475Z",
+        "created_at": "2023-08-30T00:26:56.812Z",
+        "updated_at": "2023-08-29T09:30:31.056Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "32f3ce16-cb3a-491b-8423-f96f4b9f406e",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-30T00:39:28.220Z",
+        "updated_at": "2023-08-29T10:25:32.546Z",
+        "academic_year_id": "2c5a1f66-fc19-49d7-951b-465628b221ce",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "357b927d-181a-426a-8807-b8d0b5e9f98c",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T14:12:17.694Z",
+        "updated_at": "2023-08-29T11:25:22.176Z",
+        "academic_year_id": "2c5a1f66-fc19-49d7-951b-465628b221ce",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "1d1136fe-517e-444f-8f30-54b9e95a3f1f",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-30T07:50:25.437Z",
+        "updated_at": "2023-08-30T01:32:43.335Z",
+        "academic_year_id": "2c5a1f66-fc19-49d7-951b-465628b221ce",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d19c8040-ae7c-42bc-b520-a64fd6e49371",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-29T23:50:56.050Z",
+        "updated_at": "2023-08-30T06:58:13.229Z",
+        "academic_year_id": "475bd425-7cd8-43d6-8ae8-809a0d5b3834",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f484a626-612f-4780-93d9-7a62975b7c1e",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-30T05:24:23.608Z",
+        "updated_at": "2023-08-29T20:29:17.135Z",
+        "academic_year_id": "8ceb3da3-f868-4f91-8975-7349e0a9216d",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "a2a8f931-eeef-4edb-a229-00a915e2805b",
+        "date": "2023-08-29T17:00:04.646Z",
+        "status": "Present",
+        "created_at": "2023-08-29T20:06:23.865Z",
+        "updated_at": "2023-08-29T12:41:11.771Z",
+        "class_id": "357b927d-181a-426a-8807-b8d0b5e9f98c",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "8c351e71-b981-4bce-87f7-0d40976261b4",
+        "date": "2023-08-30T00:07:53.824Z",
+        "status": "Absent",
+        "created_at": "2023-08-30T03:01:16.146Z",
+        "updated_at": "2023-08-30T06:39:32.419Z",
+        "class_id": "1d1136fe-517e-444f-8f30-54b9e95a3f1f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "6b761626-4295-40c3-b33d-57fa60af6524",
+        "date": "2023-08-30T05:47:41.560Z",
+        "status": "Late",
+        "created_at": "2023-08-29T21:13:44.965Z",
+        "updated_at": "2023-08-29T20:55:22.427Z",
+        "class_id": "1d1136fe-517e-444f-8f30-54b9e95a3f1f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ea7f1629-025d-4a0d-95d0-6da50dc3477a",
+        "date": "2023-08-30T03:44:00.641Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T09:35:55.225Z",
+        "updated_at": "2023-08-30T04:57:55.132Z",
+        "class_id": "32f3ce16-cb3a-491b-8423-f96f4b9f406e",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "eca48831-5430-49e8-ad98-b211d310c3b6",
+        "date": "2023-08-29T17:04:36.588Z",
+        "status": "Tardy",
+        "created_at": "2023-08-30T07:24:42.159Z",
+        "updated_at": "2023-08-30T01:27:57.031Z",
+        "class_id": "357b927d-181a-426a-8807-b8d0b5e9f98c",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "8438f91b-db42-46c5-ab27-fdcb66f4da16",
+        "title": "Homework 1",
+        "description": "Complete the exercises in Chapter 3",
+        "due_date": "2023-08-29T11:54:12.314Z",
+        "created_at": "2023-08-29T17:50:43.227Z",
+        "updated_at": "2023-08-29T22:14:51.968Z",
+        "class_id": "d19c8040-ae7c-42bc-b520-a64fd6e49371",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7694442b-40ea-4351-ab37-b7db2d5d62eb",
+        "title": "Essay Assignment",
+        "description": "Write an essay on climate change",
+        "due_date": "2023-08-30T05:00:11.376Z",
+        "created_at": "2023-08-29T09:47:57.977Z",
+        "updated_at": "2023-08-29T14:41:32.861Z",
+        "class_id": "f484a626-612f-4780-93d9-7a62975b7c1e",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "7950db0e-c6c7-4f17-be68-5c5677af7c5d",
+        "title": "Project Presentation",
+        "description": "Prepare a presentation on renewable energy",
+        "due_date": "2023-08-30T02:04:11.059Z",
+        "created_at": "2023-08-29T19:54:18.096Z",
+        "updated_at": "2023-08-29T13:29:19.089Z",
+        "class_id": "357b927d-181a-426a-8807-b8d0b5e9f98c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "803667b5-692e-4ab0-a619-41cc7504c670",
+        "title": "Research Paper",
+        "description": "Submit a research paper on World War II",
+        "due_date": "2023-08-29T15:39:36.143Z",
+        "created_at": "2023-08-29T14:24:50.591Z",
+        "updated_at": "2023-08-29T22:29:53.335Z",
+        "class_id": "357b927d-181a-426a-8807-b8d0b5e9f98c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cb410eca-729e-4f59-9162-acbe0490abad",
+        "title": "Quiz",
+        "description": "Take a quiz on algebra",
+        "due_date": "2023-08-29T12:50:38.381Z",
+        "created_at": "2023-08-30T01:02:18.235Z",
+        "updated_at": "2023-08-29T09:56:38.775Z",
+        "class_id": "d19c8040-ae7c-42bc-b520-a64fd6e49371",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "afc74cbb-70c1-4d63-aa16-1a1805dfe107",
+        "email": "Albertha1@gmail.com",
+        "firstName": "Hayley",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77223170",
+        "tenantId": null
+      },
+      {
+        "reference": "11bafec6-6034-4fe9-b17f-8f8a27bcfa41",
+        "email": "Pauline.Schuppe@gmail.com",
+        "firstName": "Rick",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bdfc5d3d-590b-421d-86c2-af7bcb55fcba",
+        "email": "Vernice_Nikolaus98@gmail.com",
+        "firstName": "Mose",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/445.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b6f64f1-92a8-47c1-9a58-96d1c8571d1a",
+        "email": "Ulises.Howe@yahoo.com",
+        "firstName": "Alta",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14968949",
+        "tenantId": null
+      },
+      {
+        "reference": "de7fa79a-482e-4f62-bd33-c39cd4b2f09f",
+        "email": "Selmer.Hagenes@gmail.com",
+        "firstName": "Jeramy",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/250.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "6843b987-51c6-4e9c-bb0b-24169cfb578c",
+        "year": 81709,
+        "start_date": "2023-08-29T15:58:11.605Z",
+        "end_date": "2023-08-30T04:46:48.931Z",
+        "created_at": "2023-08-29T14:58:38.423Z",
+        "updated_at": "2023-08-29T15:39:11.980Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d7675ed7-70f4-4bec-8460-12fb4901afb9",
+        "year": 30837,
+        "start_date": "2023-08-30T08:16:37.659Z",
+        "end_date": "2023-08-29T15:03:52.492Z",
+        "created_at": "2023-08-29T18:16:59.726Z",
+        "updated_at": "2023-08-29T13:54:15.470Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c61ea2fe-6a12-4568-886e-f7f8f2047f5a",
+        "year": 22807,
+        "start_date": "2023-08-29T13:37:50.178Z",
+        "end_date": "2023-08-29T18:07:16.245Z",
+        "created_at": "2023-08-29T17:19:32.103Z",
+        "updated_at": "2023-08-29T18:12:04.456Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fbf775d8-800f-4ee1-892e-a53e39216bba",
+        "year": 33113,
+        "start_date": "2023-08-29T21:17:38.535Z",
+        "end_date": "2023-08-29T22:06:56.476Z",
+        "created_at": "2023-08-29T18:10:17.640Z",
+        "updated_at": "2023-08-29T19:19:50.916Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8546ee95-c2b9-42d0-b875-c59ae079aec8",
+        "year": 75497,
+        "start_date": "2023-08-29T10:16:10.184Z",
+        "end_date": "2023-08-29T11:36:47.642Z",
+        "created_at": "2023-08-29T11:48:26.782Z",
+        "updated_at": "2023-08-30T00:44:58.345Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "03a0d9b9-48ac-4ad9-b739-4c73f5ab375d",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-29T20:19:52.944Z",
+        "updated_at": "2023-08-29T13:58:32.619Z",
+        "academic_year_id": "6843b987-51c6-4e9c-bb0b-24169cfb578c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "9fe2fc00-126a-4ba0-8526-b403271a39f1",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T13:16:19.724Z",
+        "updated_at": "2023-08-30T04:17:01.483Z",
+        "academic_year_id": "fbf775d8-800f-4ee1-892e-a53e39216bba",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3c5a98ae-3937-4245-b0a3-49f091d8278c",
+        "name": "History",
+        "section": "C",
+        "created_at": "2023-08-30T07:40:46.743Z",
+        "updated_at": "2023-08-29T18:03:40.836Z",
+        "academic_year_id": "8546ee95-c2b9-42d0-b875-c59ae079aec8",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "bc0c8543-5e3a-4a6b-9fc2-5e900b1a38f8",
+        "name": "English",
+        "section": "D",
+        "created_at": "2023-08-29T12:11:47.677Z",
+        "updated_at": "2023-08-30T00:13:32.726Z",
+        "academic_year_id": "c61ea2fe-6a12-4568-886e-f7f8f2047f5a",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f157c27e-bdf6-445b-bb47-feb7511d9555",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-30T05:56:21.729Z",
+        "updated_at": "2023-08-30T02:23:02.848Z",
+        "academic_year_id": "d7675ed7-70f4-4bec-8460-12fb4901afb9",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "d7a19e92-6aa6-4420-b1b6-3150d7a7811e",
+        "date": "2023-08-29T14:11:40.042Z",
+        "status": "Present",
+        "created_at": "2023-08-29T18:33:50.569Z",
+        "updated_at": "2023-08-29T19:53:03.981Z",
+        "class_id": "03a0d9b9-48ac-4ad9-b739-4c73f5ab375d",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b5fc63-822a-4722-a4cc-cba435dc463a",
+        "date": "2023-08-30T03:00:45.468Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T14:31:13.423Z",
+        "updated_at": "2023-08-29T09:21:00.362Z",
+        "class_id": "9fe2fc00-126a-4ba0-8526-b403271a39f1",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "dce7497c-a6b4-45ab-bce3-4a3727e64508",
+        "date": "2023-08-29T16:06:19.985Z",
+        "status": "Late",
+        "created_at": "2023-08-30T07:36:06.291Z",
+        "updated_at": "2023-08-29T12:42:04.935Z",
+        "class_id": "f157c27e-bdf6-445b-bb47-feb7511d9555",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "318906d4-b619-4e84-af38-eead98643caf",
+        "date": "2023-08-30T08:54:20.514Z",
+        "status": "Excused",
+        "created_at": "2023-08-30T03:42:23.294Z",
+        "updated_at": "2023-08-29T23:28:25.172Z",
+        "class_id": "03a0d9b9-48ac-4ad9-b739-4c73f5ab375d",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "cda64398-f4f8-41ab-9161-3f8589ceed53",
+        "date": "2023-08-30T07:05:01.411Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T16:57:10.435Z",
+        "updated_at": "2023-08-30T01:52:24.670Z",
+        "class_id": "9fe2fc00-126a-4ba0-8526-b403271a39f1",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "8814cf13-8914-48b7-b79c-ff2def1b0cf2",
+        "title": "Research Paper",
+        "description": "Write a research paper on the impact of climate change",
+        "due_date": "2023-08-30T01:59:39.216Z",
+        "created_at": "2023-08-29T15:33:58.484Z",
+        "updated_at": "2023-08-30T04:44:00.300Z",
+        "class_id": "03a0d9b9-48ac-4ad9-b739-4c73f5ab375d",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "2096c37c-b184-484e-a5b6-a2f0ec6081fc",
+        "title": "Group Project",
+        "description": "Collaborate with your team to create a project proposal",
+        "due_date": "2023-08-29T09:48:36.745Z",
+        "created_at": "2023-08-29T09:46:17.720Z",
+        "updated_at": "2023-08-29T15:05:32.206Z",
+        "class_id": "3c5a98ae-3937-4245-b0a3-49f091d8278c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d9b01eab-16d7-4f72-a303-939d7df4c2dc",
+        "title": "Presentation",
+        "description": "Deliver a presentation on a historical event",
+        "due_date": "2023-08-29T15:23:28.105Z",
+        "created_at": "2023-08-30T08:37:49.617Z",
+        "updated_at": "2023-08-29T12:37:26.012Z",
+        "class_id": "bc0c8543-5e3a-4a6b-9fc2-5e900b1a38f8",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "89705423-ebc5-422c-afdf-e24ebcd6f7e1",
+        "title": "Essay",
+        "description": "Compose an essay analyzing a literary work",
+        "due_date": "2023-08-29T15:01:07.186Z",
+        "created_at": "2023-08-29T20:30:50.833Z",
+        "updated_at": "2023-08-30T01:56:45.987Z",
+        "class_id": "03a0d9b9-48ac-4ad9-b739-4c73f5ab375d",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "e530bbc8-ad3c-49e6-98e4-a7694107659b",
+        "title": "Case Study",
+        "description": "Conduct a case study on a business strategy",
+        "due_date": "2023-08-30T00:47:01.745Z",
+        "created_at": "2023-08-30T05:04:40.138Z",
+        "updated_at": "2023-08-29T21:05:34.809Z",
+        "class_id": "3c5a98ae-3937-4245-b0a3-49f091d8278c",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9e231a19-958d-48e0-9701-712815af1fc8",
+        "email": "Elliot36@yahoo.com",
+        "firstName": "Marguerite",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/308.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5f9ad62-3517-47c3-a02a-c5ed27a20348",
+        "email": "Arnold44@gmail.com",
+        "firstName": "Robert",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69148299",
+        "tenantId": null
+      },
+      {
+        "reference": "6008bc83-4f78-46fd-8a49-4aeeb2f1984a",
+        "email": "Summer90@gmail.com",
+        "firstName": "Lue",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7649219f-bf7a-4db8-96ec-d910d04a637c",
+        "email": "Lauriane.Huel13@yahoo.com",
+        "firstName": "Clare",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/534.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61dec83a-11a2-4c9a-b23b-ea0306b339d2",
+        "email": "Marisol42@hotmail.com",
+        "firstName": "Allison",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/887.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "305b0eb3-7155-4a36-9348-33783acd1510",
+        "year": 85302,
+        "start_date": "2023-08-29T21:26:05.622Z",
+        "end_date": "2023-08-30T01:33:40.340Z",
+        "created_at": "2023-08-29T12:00:42.558Z",
+        "updated_at": "2023-08-29T22:08:56.369Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee8163bd-c96a-438e-a724-ee5bd94b93f1",
+        "year": 51406,
+        "start_date": "2023-08-30T09:00:32.212Z",
+        "end_date": "2023-08-30T08:47:39.523Z",
+        "created_at": "2023-08-29T18:46:06.631Z",
+        "updated_at": "2023-08-30T02:22:12.216Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72769b30-d725-4d8a-9468-bfd5dfabf478",
+        "year": 13283,
+        "start_date": "2023-08-30T06:12:05.380Z",
+        "end_date": "2023-08-30T01:50:09.368Z",
+        "created_at": "2023-08-30T04:08:07.605Z",
+        "updated_at": "2023-08-29T14:57:48.452Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aec676c8-4a02-43ec-a731-9660cfac211a",
+        "year": 84491,
+        "start_date": "2023-08-29T09:57:48.132Z",
+        "end_date": "2023-08-30T04:13:28.034Z",
+        "created_at": "2023-08-29T18:56:00.860Z",
+        "updated_at": "2023-08-30T00:35:36.420Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "30c92197-a707-4ae3-bd1a-8cc21de30042",
+        "year": 42073,
+        "start_date": "2023-08-30T02:43:28.735Z",
+        "end_date": "2023-08-29T18:58:26.015Z",
+        "created_at": "2023-08-29T19:07:19.412Z",
+        "updated_at": "2023-08-29T22:36:23.169Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "d184c175-23aa-4de2-aaa2-82233ef58c66",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-29T23:32:58.141Z",
+        "updated_at": "2023-08-29T12:04:45.590Z",
+        "academic_year_id": "72769b30-d725-4d8a-9468-bfd5dfabf478",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "08f52869-3e34-4e07-b784-159624792859",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-29T11:18:33.539Z",
+        "updated_at": "2023-08-29T12:16:05.052Z",
+        "academic_year_id": "72769b30-d725-4d8a-9468-bfd5dfabf478",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d923646d-9a50-4893-8dd4-ae8adc49420f",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-29T21:14:59.488Z",
+        "updated_at": "2023-08-29T10:23:34.401Z",
+        "academic_year_id": "30c92197-a707-4ae3-bd1a-8cc21de30042",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "f75ed83b-a121-4eae-b8da-551f7dbc7b17",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-29T14:23:52.193Z",
+        "updated_at": "2023-08-30T04:42:12.866Z",
+        "academic_year_id": "ee8163bd-c96a-438e-a724-ee5bd94b93f1",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "caedcb54-f9b5-4c41-b72e-b9dce3c4ebd6",
+        "name": "Computer Science",
+        "section": "E",
+        "created_at": "2023-08-29T10:40:23.493Z",
+        "updated_at": "2023-08-29T22:47:09.735Z",
+        "academic_year_id": "72769b30-d725-4d8a-9468-bfd5dfabf478",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "68b70f2d-5805-4838-9ed8-6343c5e91819",
+        "date": "2023-08-30T05:37:25.208Z",
+        "status": "Present",
+        "created_at": "2023-08-30T04:13:31.198Z",
+        "updated_at": "2023-08-29T19:35:54.357Z",
+        "class_id": "d184c175-23aa-4de2-aaa2-82233ef58c66",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a264944b-ddd6-4be7-9c93-7d33119e3dc7",
+        "date": "2023-08-29T11:40:59.035Z",
+        "status": "Absent",
+        "created_at": "2023-08-29T21:53:29.174Z",
+        "updated_at": "2023-08-30T02:22:44.264Z",
+        "class_id": "08f52869-3e34-4e07-b784-159624792859",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "ed61f576-fced-4002-a674-e6f61db2d6d3",
+        "date": "2023-08-30T06:50:30.752Z",
+        "status": "Late",
+        "created_at": "2023-08-29T09:20:33.629Z",
+        "updated_at": "2023-08-29T20:22:34.084Z",
+        "class_id": "08f52869-3e34-4e07-b784-159624792859",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "574ff879-ef37-45c9-91fb-06aa224ef2af",
+        "date": "2023-08-29T19:28:08.038Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T11:11:07.961Z",
+        "updated_at": "2023-08-29T15:34:38.425Z",
+        "class_id": "d923646d-9a50-4893-8dd4-ae8adc49420f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "edb2ac6c-dd37-4eb7-8201-1928a77ce6cf",
+        "date": "2023-08-29T15:39:35.699Z",
+        "status": "On Leave",
+        "created_at": "2023-08-29T13:22:06.240Z",
+        "updated_at": "2023-08-30T05:02:20.930Z",
+        "class_id": "d923646d-9a50-4893-8dd4-ae8adc49420f",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "234032d3-e5a8-4b94-a9d2-d94d8947fadc",
+        "title": "Research Paper",
+        "description": "Write a research paper on climate change",
+        "due_date": "2023-08-30T06:44:14.510Z",
+        "created_at": "2023-08-29T14:40:50.736Z",
+        "updated_at": "2023-08-30T07:01:15.255Z",
+        "class_id": "f75ed83b-a121-4eae-b8da-551f7dbc7b17",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6e592da6-7e21-423a-b8fd-2e34c8346819",
+        "title": "Group Project",
+        "description": "Collaborate on a group project about renewable energy",
+        "due_date": "2023-08-29T22:10:44.596Z",
+        "created_at": "2023-08-29T20:38:06.841Z",
+        "updated_at": "2023-08-29T10:08:39.410Z",
+        "class_id": "d184c175-23aa-4de2-aaa2-82233ef58c66",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "4ea55e7b-f537-40ee-ab5f-98849315fe53",
+        "title": "Presentation",
+        "description": "Deliver a presentation on the history of World War II",
+        "due_date": "2023-08-30T06:49:58.087Z",
+        "created_at": "2023-08-29T19:02:05.500Z",
+        "updated_at": "2023-08-29T23:28:25.045Z",
+        "class_id": "d923646d-9a50-4893-8dd4-ae8adc49420f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "976513f0-0a7c-4143-88bb-b100cd618895",
+        "title": "Essay",
+        "description": "Compose an essay analyzing a literary work",
+        "due_date": "2023-08-30T00:36:57.528Z",
+        "created_at": "2023-08-29T15:49:14.611Z",
+        "updated_at": "2023-08-30T04:30:22.285Z",
+        "class_id": "f75ed83b-a121-4eae-b8da-551f7dbc7b17",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0d0ed079-e0ad-4a1e-9b0a-fe6ab0adaec9",
+        "title": "Problem Set",
+        "description": "Complete a problem set on calculus",
+        "due_date": "2023-08-29T21:59:20.199Z",
+        "created_at": "2023-08-30T08:46:59.195Z",
+        "updated_at": "2023-08-29T18:24:50.890Z",
+        "class_id": "d184c175-23aa-4de2-aaa2-82233ef58c66",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af7d39a2-1927-49e3-b3b8-b3dc5dc3061b",
+        "email": "Chesley.Kshlerin22@yahoo.com",
+        "firstName": "Larry",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c23d5c99-838c-491a-962a-c29bfa6b0fd8",
+        "email": "Kristian_Heathcote@hotmail.com",
+        "firstName": "Ernie",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/728.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2091989f-83b4-45e2-a900-708a59751f10",
+        "email": "Jocelyn47@hotmail.com",
+        "firstName": "Favian",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45719432",
+        "tenantId": null
+      },
+      {
+        "reference": "a2034eea-1326-45e9-b2d1-4aa98ae9667a",
+        "email": "Martina_Baumbach@yahoo.com",
+        "firstName": "Ashley",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/683.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0eddface-6e7c-468e-ab9f-663a44bc4171",
+        "email": "Mathilde25@yahoo.com",
+        "firstName": "Sonny",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95591133",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "2fa1496d-39f7-44de-8329-520c1e76e13f",
+        "year": 81217,
+        "start_date": "2023-08-29T12:27:12.706Z",
+        "end_date": "2023-08-30T01:58:02.966Z",
+        "created_at": "2023-08-29T22:56:04.785Z",
+        "updated_at": "2023-08-29T23:53:33.769Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c4d195d-d128-483a-8589-aa0a6b805af6",
+        "year": 704,
+        "start_date": "2023-08-30T04:08:32.198Z",
+        "end_date": "2023-08-29T14:06:05.283Z",
+        "created_at": "2023-08-29T17:25:45.627Z",
+        "updated_at": "2023-08-29T21:54:27.964Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ca2faff2-eac5-4cfd-b96a-490636292a6e",
+        "year": 81927,
+        "start_date": "2023-08-29T15:22:06.604Z",
+        "end_date": "2023-08-29T15:22:42.437Z",
+        "created_at": "2023-08-30T00:05:26.622Z",
+        "updated_at": "2023-08-29T18:54:56.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd7b48be-cfaa-4073-82b9-deabc40240d6",
+        "year": 47126,
+        "start_date": "2023-08-29T19:42:27.973Z",
+        "end_date": "2023-08-29T18:50:24.389Z",
+        "created_at": "2023-08-29T11:21:06.573Z",
+        "updated_at": "2023-08-30T06:51:11.980Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2dae9a0e-23a5-4285-a2d0-8456adcec332",
+        "year": 66622,
+        "start_date": "2023-08-29T20:48:52.208Z",
+        "end_date": "2023-08-29T13:21:59.876Z",
+        "created_at": "2023-08-30T00:24:52.506Z",
+        "updated_at": "2023-08-29T09:53:33.207Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "ff31226e-60b2-4e18-9abd-e889f812f576",
+        "name": "Mathematics",
+        "section": "A",
+        "created_at": "2023-08-29T16:31:43.303Z",
+        "updated_at": "2023-08-29T12:52:03.691Z",
+        "academic_year_id": "ca2faff2-eac5-4cfd-b96a-490636292a6e",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "name": "English",
+        "section": "B",
+        "created_at": "2023-08-30T08:27:01.043Z",
+        "updated_at": "2023-08-29T15:24:20.291Z",
+        "academic_year_id": "2c4d195d-d128-483a-8589-aa0a6b805af6",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "27bc1f35-8683-407d-a68c-9a5a2f494992",
+        "name": "Science",
+        "section": "C",
+        "created_at": "2023-08-30T04:21:09.557Z",
+        "updated_at": "2023-08-29T20:02:46.503Z",
+        "academic_year_id": "2c4d195d-d128-483a-8589-aa0a6b805af6",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "b0330d08-4465-4845-9188-95083582d5eb",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-30T09:09:04.932Z",
+        "updated_at": "2023-08-29T12:27:17.937Z",
+        "academic_year_id": "2fa1496d-39f7-44de-8329-520c1e76e13f",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "48057d89-a842-4459-ba1e-0c9c6281a25f",
+        "name": "Geography",
+        "section": "E",
+        "created_at": "2023-08-30T01:19:07.109Z",
+        "updated_at": "2023-08-29T19:03:45.912Z",
+        "academic_year_id": "ca2faff2-eac5-4cfd-b96a-490636292a6e",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "2cc93593-b130-4324-8dd0-6905f9b31f5b",
+        "date": "2023-08-29T22:33:46.044Z",
+        "status": "Present",
+        "created_at": "2023-08-30T06:03:40.523Z",
+        "updated_at": "2023-08-30T03:31:52.499Z",
+        "class_id": "27bc1f35-8683-407d-a68c-9a5a2f494992",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "54224b1b-235a-4ebb-a39d-91aee1cb24a6",
+        "date": "2023-08-29T20:19:03.344Z",
+        "status": "Absent",
+        "created_at": "2023-08-30T03:01:19.087Z",
+        "updated_at": "2023-08-29T19:14:19.731Z",
+        "class_id": "ff31226e-60b2-4e18-9abd-e889f812f576",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "3bb53390-b3c2-4529-b694-291dd3b229ab",
+        "date": "2023-08-30T01:42:04.918Z",
+        "status": "Late",
+        "created_at": "2023-08-30T06:29:42.693Z",
+        "updated_at": "2023-08-29T10:30:48.833Z",
+        "class_id": "48057d89-a842-4459-ba1e-0c9c6281a25f",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "274cd437-9c6a-4396-8719-477ca789708a",
+        "date": "2023-08-29T13:52:01.911Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T13:48:39.287Z",
+        "updated_at": "2023-08-29T13:54:32.158Z",
+        "class_id": "27bc1f35-8683-407d-a68c-9a5a2f494992",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "2cacc197-42e5-4114-a6ca-93993173e803",
+        "date": "2023-08-29T23:48:09.458Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T13:52:16.401Z",
+        "updated_at": "2023-08-30T02:28:35.391Z",
+        "class_id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "8468e96e-b5b7-47e7-82e3-5e3e4a31baa6",
+        "title": "Research Paper",
+        "description": "Write a research paper on climate change",
+        "due_date": "2023-08-29T14:48:07.799Z",
+        "created_at": "2023-08-29T18:07:37.668Z",
+        "updated_at": "2023-08-29T09:41:31.660Z",
+        "class_id": "ff31226e-60b2-4e18-9abd-e889f812f576",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "966352cf-fa15-4157-a958-833eefffee8e",
+        "title": "Math Problem Set",
+        "description": "Solve the math problem set on algebra",
+        "due_date": "2023-08-29T22:46:06.267Z",
+        "created_at": "2023-08-29T19:55:41.842Z",
+        "updated_at": "2023-08-29T17:43:53.461Z",
+        "class_id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "20d18805-677a-45c8-86ac-950fee0f550c",
+        "title": "Essay Writing",
+        "description": "Compose an essay on the importance of education",
+        "due_date": "2023-08-29T12:58:23.174Z",
+        "created_at": "2023-08-30T05:06:24.220Z",
+        "updated_at": "2023-08-29T17:33:36.756Z",
+        "class_id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "a6e529e7-bd79-4b71-be73-aa90486ee1f9",
+        "title": "Lab Experiment",
+        "description": "Conduct a lab experiment on chemical reactions",
+        "due_date": "2023-08-29T16:31:19.669Z",
+        "created_at": "2023-08-30T00:25:41.459Z",
+        "updated_at": "2023-08-29T23:53:18.442Z",
+        "class_id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "aae516d7-c14b-46fb-936d-6b2dae8d4777",
+        "title": "Group Project",
+        "description": "Collaborate on a group project about renewable energy",
+        "due_date": "2023-08-30T02:04:38.509Z",
+        "created_at": "2023-08-29T12:39:16.424Z",
+        "updated_at": "2023-08-29T16:49:49.291Z",
+        "class_id": "b1347dbb-f199-47a8-96f6-ea64298bd47c",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a6986f3-babc-4c47-8719-5b61b7264122",
+        "email": "Brandon13@yahoo.com",
+        "firstName": "Lonzo",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17212481",
+        "tenantId": null
+      },
+      {
+        "reference": "48f168fa-fbff-4e7b-a89d-451179e2b3ff",
+        "email": "Allen95@gmail.com",
+        "firstName": "Edgardo",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13626906",
+        "tenantId": null
+      },
+      {
+        "reference": "9a2e7327-7607-4228-baf8-a0e7a4218fe5",
+        "email": "Sadye_Stoltenberg@hotmail.com",
+        "firstName": "Jack",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b818f21-c988-434b-9437-438e178ac1bf",
+        "email": "Leland19@yahoo.com",
+        "firstName": "Madelynn",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/990.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca7d8c44-f32b-4dc6-81e9-0c104a3cd9f4",
+        "email": "Geo.Jones64@hotmail.com",
+        "firstName": "Jayce",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84758938",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "academic_year": [
+      {
+        "id": "3741da67-2e8d-496e-9e32-c0503f19fb08",
+        "year": 30079,
+        "start_date": "2023-08-29T12:30:35.434Z",
+        "end_date": "2023-08-30T05:30:33.652Z",
+        "created_at": "2023-08-29T21:45:59.039Z",
+        "updated_at": "2023-08-29T20:41:33.209Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c76eae85-71b5-435e-b353-3dd9bed01eeb",
+        "year": 44340,
+        "start_date": "2023-08-30T08:47:38.349Z",
+        "end_date": "2023-08-29T12:33:41.574Z",
+        "created_at": "2023-08-29T21:40:43.727Z",
+        "updated_at": "2023-08-30T01:50:50.253Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4b56cbb-4f1d-4b34-9733-d07ff0664289",
+        "year": 99149,
+        "start_date": "2023-08-30T01:06:10.688Z",
+        "end_date": "2023-08-30T04:03:58.120Z",
+        "created_at": "2023-08-29T15:07:03.857Z",
+        "updated_at": "2023-08-29T16:09:54.663Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3f9876ef-a17e-499a-b468-fc49032b9d8d",
+        "year": 74560,
+        "start_date": "2023-08-29T09:22:51.532Z",
+        "end_date": "2023-08-29T16:13:31.045Z",
+        "created_at": "2023-08-29T16:44:46.516Z",
+        "updated_at": "2023-08-29T19:48:56.367Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f0821798-5a35-4ef3-a450-2b0e5fea2c08",
+        "year": 87369,
+        "start_date": "2023-08-29T18:47:55.728Z",
+        "end_date": "2023-08-29T17:03:18.827Z",
+        "created_at": "2023-08-29T11:04:05.944Z",
+        "updated_at": "2023-08-30T05:44:26.166Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "Renamedclass": [
+      {
+        "id": "1d8e7f69-7254-4761-8e2f-f28beef81149",
+        "name": "Math",
+        "section": "A",
+        "created_at": "2023-08-30T03:53:07.648Z",
+        "updated_at": "2023-08-29T11:53:34.760Z",
+        "academic_year_id": "c76eae85-71b5-435e-b353-3dd9bed01eeb",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "3070ddd0-98b1-4af8-95fa-c85e847fbd8a",
+        "name": "Science",
+        "section": "B",
+        "created_at": "2023-08-30T02:22:33.272Z",
+        "updated_at": "2023-08-29T10:55:58.858Z",
+        "academic_year_id": "c76eae85-71b5-435e-b353-3dd9bed01eeb",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "997e1dae-5966-4e42-b6b7-30b4f0fdf9c4",
+        "name": "English",
+        "section": "C",
+        "created_at": "2023-08-30T02:30:15.603Z",
+        "updated_at": "2023-08-29T21:20:13.997Z",
+        "academic_year_id": "c76eae85-71b5-435e-b353-3dd9bed01eeb",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0b68c392-86e0-4b05-a7b7-a49630ead331",
+        "name": "History",
+        "section": "D",
+        "created_at": "2023-08-30T01:20:28.940Z",
+        "updated_at": "2023-08-29T17:54:09.166Z",
+        "academic_year_id": "f0821798-5a35-4ef3-a450-2b0e5fea2c08",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "d0e3b766-3463-4873-ae38-d266adcaff98",
+        "name": "Art",
+        "section": "E",
+        "created_at": "2023-08-30T03:00:09.910Z",
+        "updated_at": "2023-08-29T23:49:42.001Z",
+        "academic_year_id": "c76eae85-71b5-435e-b353-3dd9bed01eeb",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "4329d0e1-3832-4502-8a8c-bd461ae0d026",
+        "date": "2023-08-29T09:15:57.902Z",
+        "status": "Present",
+        "created_at": "2023-08-30T04:00:39.125Z",
+        "updated_at": "2023-08-29T12:11:27.196Z",
+        "class_id": "d0e3b766-3463-4873-ae38-d266adcaff98",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "95578f8f-84c5-4d56-8191-1f3077887396",
+        "date": "2023-08-29T13:13:30.857Z",
+        "status": "Absent",
+        "created_at": "2023-08-30T04:22:58.206Z",
+        "updated_at": "2023-08-29T14:21:49.005Z",
+        "class_id": "3070ddd0-98b1-4af8-95fa-c85e847fbd8a",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "aaca8c2c-0222-44b0-b099-b5387c1d6251",
+        "date": "2023-08-30T07:43:10.108Z",
+        "status": "Late",
+        "created_at": "2023-08-29T11:41:44.712Z",
+        "updated_at": "2023-08-30T01:10:07.383Z",
+        "class_id": "1d8e7f69-7254-4761-8e2f-f28beef81149",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "70fd9457-ddc3-41fb-8bfd-1d6e1b99e77e",
+        "date": "2023-08-29T21:47:42.647Z",
+        "status": "Excused",
+        "created_at": "2023-08-29T23:15:45.730Z",
+        "updated_at": "2023-08-29T09:49:21.960Z",
+        "class_id": "d0e3b766-3463-4873-ae38-d266adcaff98",
+        "student_id": "user_entity_pk"
+      },
+      {
+        "id": "a0cc4c29-b1bb-4e1e-8635-6679d7460b9f",
+        "date": "2023-08-30T08:32:21.995Z",
+        "status": "Tardy",
+        "created_at": "2023-08-29T16:56:56.292Z",
+        "updated_at": "2023-08-29T09:15:35.283Z",
+        "class_id": "0b68c392-86e0-4b05-a7b7-a49630ead331",
+        "student_id": "user_entity_pk"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "f4434bce-088d-49eb-b01e-d4d240c04b02",
+        "title": "Homework 1",
+        "description": "Complete the assigned problems",
+        "due_date": "2023-08-29T13:46:35.958Z",
+        "created_at": "2023-08-29T21:24:25.861Z",
+        "updated_at": "2023-08-29T21:05:38.483Z",
+        "class_id": "0b68c392-86e0-4b05-a7b7-a49630ead331",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "0b6cb58e-1e76-4fe2-8e07-a165e8acca79",
+        "title": "Project 2",
+        "description": "Develop a software application",
+        "due_date": "2023-08-29T21:49:58.545Z",
+        "created_at": "2023-08-29T22:00:36.283Z",
+        "updated_at": "2023-08-29T19:06:06.505Z",
+        "class_id": "d0e3b766-3463-4873-ae38-d266adcaff98",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "cd99d476-ecb4-42de-8444-b0919c7c932b",
+        "title": "Essay 3",
+        "description": "Write a research paper",
+        "due_date": "2023-08-30T04:44:10.084Z",
+        "created_at": "2023-08-29T17:13:35.208Z",
+        "updated_at": "2023-08-29T13:08:15.332Z",
+        "class_id": "1d8e7f69-7254-4761-8e2f-f28beef81149",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "6c79bad0-70e0-4249-ba3e-e29920d875cb",
+        "title": "Quiz 4",
+        "description": "Answer the questions",
+        "due_date": "2023-08-30T02:02:49.888Z",
+        "created_at": "2023-08-30T05:17:55.613Z",
+        "updated_at": "2023-08-30T05:18:23.828Z",
+        "class_id": "0b68c392-86e0-4b05-a7b7-a49630ead331",
+        "teacher_id": "user_entity_pk"
+      },
+      {
+        "id": "dfcfff9c-009c-4e3a-81c9-418503f2ae77",
+        "title": "Exam 5",
+        "description": "Take a comprehensive test",
+        "due_date": "2023-08-30T02:18:16.564Z",
+        "created_at": "2023-08-30T01:12:47.838Z",
+        "updated_at": "2023-08-30T09:02:58.332Z",
+        "class_id": "0b68c392-86e0-4b05-a7b7-a49630ead331",
+        "teacher_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "de0f5783-9715-4487-a271-8a755c140a82",
+        "email": "Taurean49@gmail.com",
+        "firstName": "Alfonzo",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84826207",
+        "tenantId": null
+      },
+      {
+        "reference": "1b39be32-76ce-4d12-ad3c-ebcf19947835",
+        "email": "Francisca34@gmail.com",
+        "firstName": "Wilton",
+        "lastName": "Kilback-Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/944.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10969996-1af8-437d-9916-e246fc34a970",
+        "email": "Rigoberto_Deckow59@yahoo.com",
+        "firstName": "Tevin",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67314553",
+        "tenantId": null
+      },
+      {
+        "reference": "d6406f82-2d73-472a-a36a-57b52628e8eb",
+        "email": "Roma7@gmail.com",
+        "firstName": "Jarret",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/465.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a48be21e-16a2-4021-903f-d3b9c43cfe71",
+        "email": "Ivah10@hotmail.com",
+        "firstName": "Rodrick",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/219.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
